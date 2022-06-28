@@ -1,22 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#main{
+body {
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 2rem;
+}
+
+#main {
     height: 600px;
 }
 
-.main-image{
+.main-image {
     height: 100%;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-li{
+li {
     transform: translateY(-485px);
     line-height: 2.8rem;
 }

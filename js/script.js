@@ -35,6 +35,6 @@ while (i < groceryList.length) {
     i++;
 
 }
-//AZIONE 5 --- 
+//AZIONE 5 --- STAMPO IN PAGINA
 list.innerHTML = myList
     // console.log(groceryList);
