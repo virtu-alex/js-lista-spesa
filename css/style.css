@@ -18,11 +18,23 @@ body {
     height: 100%;
 }
 
+.background {
+    background-image: url('/img/lista.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
 ul {
     list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-indent: 30px;
 }
 
 li {
-    transform: translateY(-485px);
-    line-height: 2.8rem;
+    line-height: 2.75rem;
 }
