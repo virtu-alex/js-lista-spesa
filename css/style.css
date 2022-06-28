@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 600px;
+}
+
+.main-image{
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    transform: translateY(-485px);
+    line-height: 2.8rem;
+}
